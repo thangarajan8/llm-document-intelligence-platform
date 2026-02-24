@@ -1,0 +1,27 @@
+# Core API
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-dotenv==1.0.0
+pydantic==2.5.3
+
+# LLM
+openai==1.10.0
+langchain==0.1.4
+langchain-openai==0.0.5
+tiktoken==0.5.2
+
+# Vector Store
+chromadb==0.4.22
+faiss-cpu==1.7.4
+
+# Document Processing
+pypdf==4.0.1
+
+# Utilities
+numpy==1.26.3
+pandas==2.2.0
+loguru==0.7.2
+
+# HTTP
+httpx==0.26.0
+aiofiles==23.2.1
